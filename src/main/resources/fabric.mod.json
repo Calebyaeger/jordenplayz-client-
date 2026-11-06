@@ -1,0 +1,23 @@
+
+{
+  "schemaVersion": 1,
+  "id": "jordenplayzclient",
+  "version": "${version}",
+  "name": "JordenPlayz Client",
+  "description": "A custom Minecraft Fabric client with a stylish Click GUI.",
+  "authors": [
+    "JordenPlayz"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.jordenplayz.client.JordenPlayzClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
